@@ -13,7 +13,7 @@
 
 <div id="headerGraphic" class="mHide">
 <img src="/images/contactUsMap224x175.jpg?MOD=AJPERES">
-<div id="tabViewBranchContacts" class="mHide" style="position: absolute; bottom: 0px;left: 37px;"><a href="/web/guest/cna/about/corporateprofile/locations" class="btnViewBranchContacts">
+<div id="tabViewBranchContacts" class="mHide" style="position: absolute;top: 165px;left: 37px;"><a href="/web/guest/cna/about/corporateprofile/locations" class="btnViewBranchContacts">
 <img border="0" src="/images/view-all-branch-contacts.png?MOD=AJPERES&amp;CACHEID=a6da854d-024b-421d-8a7b-ba09339e3ec8" title="">
 </a>
 </div>
