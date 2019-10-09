@@ -6,7 +6,7 @@
 	<groupId>com.example.standalone</groupId>
 	<artifactId>springbootgcp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>springbootgcp</name>
 	<description>Standalone Demo project for Spring Boot</description>
 
@@ -53,6 +53,15 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>com.google.cloud.tools</groupId>
+          <artifactId>jib-maven-plugin</artifactId>
+          <version>1.0.0</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
 	</build>
 
 	<repositories>
