@@ -107,7 +107,7 @@
 	                </configuration>
 	            </plugin>
 		</plugins>
-		<finalName>springbootgkewar</finalName>
+		<finalName>springbootgkewarwithdocker</finalName>
 	</build>
 	 <profiles>
 	        <profile>
@@ -150,7 +150,7 @@
 	                                        <exec executable="docker">
 	                                            <arg value="build"/>
 	                                            <arg value="-t"/>
-	                                            <arg value="springbootgkewar:${project.version}"/>
+	                                            <arg value="springbootgkewarwithdocker:${project.version}"/>
 	                                            <arg value="target"/>
 	                                        </exec>
 	                                    </target>
@@ -184,12 +184,12 @@
 	                                    <target>
 	                                        <exec executable="docker">
 	                                            <arg value="tag"/>
-	                                            <arg value="springbootgkewar:${project.version}"/>
-	                                            <arg value="springbootgkewar:latest"/>
+	                                            <arg value="springbootgkewarwithdocker:${project.version}"/>
+	                                            <arg value="springbootgkewarwithdocker:latest"/>
 	                                        </exec>
 	                                        <exec executable="docker">
 	                                            <arg value="push"/>
-	                                            <arg value="springbootgkewar:latest"/>
+	                                            <arg value="springbootgkewarwithdocker:latest"/>
 	                                        </exec>
 	                                    </target>
 	                                </configuration>
